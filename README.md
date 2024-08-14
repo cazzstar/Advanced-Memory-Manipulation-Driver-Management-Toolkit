@@ -1,2 +1,2 @@
 # Advanced-Memory-Manipulation-Driver-Management-Toolkit
-Driver for Memory Manipulation and Paging Exploitation
+This driver is a POC designed for memory manipulation by modifying page table entries (PTEs). It specifically abuses the wnBios64.sys service to gain access to and manipulate virtual-to-physical memory mappings. We can do this by involving the identification and modification of paging structures (PML4, PDPT, PD, PT), the driver allows for the insertion of PTEs, enabling access to physical memory. This was primarily used for bypassing user-mode restrictions and achieving privileged operations in a controlled environment.
